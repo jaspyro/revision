@@ -1,40 +1,40 @@
 
-# révision 1 : Les base du HTML
+# Révision 1 : Les bases du HTML
  
-Dans ce petit cours de révision, nous allons revoir les base et bonnes pratiques pour écrire un document en HTML et en CSS.
+Dans ce petit cours de révision, nous allons revoir les bases et bonnes pratiques pour écrire un document en HTML et en CSS.
  
 Nous allons, dans une première partie, nous consacrer aux HTML puis nous consacrer, dans une seconde partie, aux CSS enfin nous allons consacrer un peu de temps sur une extension appeler W3C et l'inspecteur.
 
-## sommaire :
-- [révision 1 : Les base du HTML](#révision-1--les-base-du-html)
-  - [sommaire :](#sommaire-)
-  - [première partie : HTML](#première-partie--html)
-    - [1. Comprendre les première ligne d'un html](#1-comprendre-les-première-ligne-dun-html)
+## Sommaire :
+- [Révision 1 : Les bases du HTML](#révision-1--les-bases-du-html)
+  - [Sommaire :](#sommaire-)
+  - [Première partie : HTML](#première-partie--html)
+    - [1. Comprendre les premières lignes d'un html](#1-comprendre-les-premières-lignes-dun-html)
     - [2. L'indentation](#2-lindentation)
     - [3. Les commentaires](#3-les-commentaires)
     - [4. L'ordre des balises](#4-lordre-des-balises)
-  - [deuxième partie : CSS](#deuxième-partie--css)
+  - [Deuxième partie : CSS](#deuxième-partie--css)
     - [1. Utiliser du CSS](#1-utiliser-du-css)
     - [2. Définir un style à une balise HTML](#2-définir-un-style-à-une-balise-html)
     - [3. Définir un style via une classe ou un identifiant](#3-définir-un-style-via-une-classe-ou-un-identifiant)
     - [4. Utilisation de la hiérarchisation en CSS](#4-utilisation-de-la-hiérarchisation-en-css)
     - [5. La balise body](#5-la-balise-body)
     - [6. Pas de répétition de code](#6-pas-de-répétition-de-code)
-  - [l'extension W3C et L'inspecteur](#lextension-w3c-et-linspecteur)
+  - [L'extension W3C et L'inspecteur](#lextension-w3c-et-linspecteur)
     - [1. L'extension W3C](#1-lextension-w3c)
     - [2. L'inspecteur](#2-linspecteur)
       - [2.1 L'inspecteur d'HTML](#21-linspecteur-dhtml)
       - [2.2 L'inspecteur de CSS](#22-linspecteur-de-css)
 
-## première partie : HTML
+## Première partie : HTML
 
 >Le html ( HyperText Markup Language ) est un langage qui utilise _des balises_ pour permettre de créer des page web.  
 >Il est la fondation de votre page html, est contient les éléments visible et les méta-données qui serviront aux navigateur internet pour afficher correctement votre page web.  
 >Il peut être suivit d'autre type de code tel que le __CSS__ pour donner du style a votre page web, du __javascript__ pour l'animé ou du __PHP__ pour lier une base de donner a notre page web. 
 
-> par convention on nomme la première page html d'un site : __index.html__
+> Par convention on nomme la première page html d'un site : __index.html__.
 
-### 1. Comprendre les première ligne d'un html
+### 1. Comprendre les premières lignes d'un html
 ``` html
 1   <!DOCTYPE html>
 2    <html lang="fr">
@@ -55,8 +55,8 @@ Dans un premier temps, nous allons nous intéresser aux lignes qui sont indispen
 - La ligne 4 : indique quel système de codage et utiliser pour décrypter les différents caractères qui compose de la page HTML.
   - La norme "UTF-8" est la plus utiliser aujourd'hui car elle englobe tous les types de caractère utiliser de par le monde.
  
-- la ligne 5 : indique le titre du document, il sera afficher dans l'onglet qui contient la page HTML.
-  - veuillez bien choisir un titre adéquat, il doit représenter le thème principal de votre page.
+- La ligne 5 : indique le titre du document, il sera afficher dans l'onglet qui contient la page HTML.
+  - Veuillez bien choisir un titre adéquat, il doit représenter le thème principal de votre page.
  
 - Les lignes 3 et 6 : représente la balise "head" qui indique les méta-données utiliser par le navigateur qui va lire la page, mais elles ne sont pas affichées.
   - Une page HTML contient toujours un head
@@ -86,7 +86,7 @@ Voici un texte sans indentation :
     </header>
 ```
 
-saurez-vous ou commence et où se termine chaque nouvelle balise ?
+Saurez-vous ou commence et où se termine chaque nouvelle balise ?
 Saurez-vous quel élément et enfant de quel autre élément ?
  
 Vous arriverez très probablement à répondre à ces deux questions, mais non sans perdre du temps à essayer de déchiffrer le code.
@@ -106,7 +106,7 @@ Maintenant voici le même code, mais avec une indentation :
         </div>
     </header>
 ```
-tenter de répondre aux deux questions précédemment pauser ne devrait vous prendre que quelque seconde avec ce code.
+Tenter de répondre aux deux questions précédemment posées ne devrait vous prendre que quelques secondes avec ce code.
  
 Cependant, on n'indente pas n'importe comment :
   -  On indente toujours de l'élément __"parent"__ à l'élément __"enfant"__.
@@ -114,7 +114,7 @@ Cependant, on n'indente pas n'importe comment :
  
 ### 3. Les commentaires
  
-Les commentaires en HTML ne sont pas affichés sur le navigateur, mais sont tous de même visible sur l'__inspecteur__.
+Les commentaires en HTML ne sont pas affichés sur le navigateur, mais sont tous de même visible sur l'__inspecteur__(voir [2. L'inspecteur](#2-linspecteur)).
  
 Ils servent majoritairement à donner des indications dans le code et à donner des repaires visuels lors de la conception de la page web.
  
@@ -122,7 +122,7 @@ Il est crucial de bien utiliser les commentaires, bien utiliser, ils peuvent aid
  
 - Utiliser les commentaires sur les éléments a la racine du body. C'est-à-dire ceux qui sont des éléments enfants de la balise _body_.
  
-- N'écrivez pas de gros commentaires, sauf obligation, ils doivent rester cousit. Si on a besoin de décrire ce que fait notre code, cela veut dire qu'il n'est probablement pas correcte.
+- N'écrivez pas de gros commentaires, sauf obligation, ils doivent rester consit. Si on a besoin de décrire ce que fait notre code, cela veut dire qu'il n'est probablement pas correcte ou trop complexe.
  
 ### 4. L'ordre des balises
  
@@ -156,9 +156,9 @@ Les titres sont des éléments qui ont leur propre __hiérarchie__ :
 </html> 
 ```
 
-## deuxième partie : CSS
+## Deuxième partie : CSS
 
->Le CSS ( Cascading Style Sheets ) est un _langage de feuille de style_ qui permet de donner un style a une page html en donnant des attibuts a nos _balise_ html ou en utilisent leur classes et identifiants que l'on aura préalablement définit dans l'html.
+>Le CSS ( Cascading Style Sheets ) est un _langage de feuille de style_ qui permet de donner un style a une page HTML en donnant des attibuts a nos _balises_ HTML ou en utilisent leur classes et identifiants que l'on aura préalablement définit dans l'HTML.
 
 ### 1. Utiliser du CSS
 
@@ -201,12 +201,12 @@ On peut utiliser du CSS de plusieurs manières :
 </html>  
 ``` 
 
-  - document CSS :  
+  - Document CSS :  
   
         p {  
             font-style: italic;  
         }
-> par convention on nomme la première page css d'un site : __style.css__             
+> Par convention on nomme la première page CSS d'un site : __style.css__.            
 
 ### 2. Définir un style à une balise HTML
  
@@ -372,13 +372,13 @@ La hiérarchisation à plusieurs avantages :
 - Elle donne un repère visuel pour celui qui cherche à comprendre votre CSS et vous-même, en indiquant précisément quel élément vous sélectionnez.
 - Elle évite de surcharger votre code d'identifiant et de classe, mais n'empêche par leur utilisation dans le chemin.
  
-> dans l'exemple donner j'ai séparer chaque balise dans le chemin par un cheverons __>__. Il n'est pas nécessaire de les écrire, un espace seul suffit a indiquer le chemin : 
+> Dans l'exemple donner, j'ai séparer chaque balise dans le chemin par un cheverons __>__. Il n'est pas nécessaire de les écrires, un espace seul suffit a indiquer le chemin : 
 
     header div dl dt a {
         color: red;
     }
 
-voici un autre exemple avec un chemin contenant un identifiant et des classes :
+Voici un autre exemple avec un chemin contenant un identifiant et des classes :
 
 ``` html
 <!DOCTYPE html>
@@ -436,7 +436,7 @@ _La balise "__body__"_ indique au navigateur ce qui doit être affiché sur votr
         margin: 0;
     }
 
-Lorsque l'on veut donner un style a toute une page, on va alors créer _une balise __div__, qui par convention a l'identifiant : __container__.
+Lorsque l'on veut donner un style a toute une page, on va alors créer _une balise __div__, qui par convention est associée à l'identifiant : __container__.
 
 ``` html
 <!DOCTYPE html>
@@ -465,22 +465,22 @@ Lorsque l'on veut donner un style a toute une page, on va alors créer _une bali
 ```
 
 ### 6. Pas de répétition de code
-> une régle en css indique __qu'il ne faut pas faire de répétition de code__.  
+> Une régle en CSS indique __qu'il ne faut pas faire de répétition de code__.  
  
  Dans la mesure du possible, on préférera regrouper dans une seule propriété ce qui peut être regrouper.  
  Par exemple :  
-- Si on veut que tous nos éléments d'une div et les mêmes marges à droite, on préfèrera placer une seule marge à droite dans cette div que de placer une marge à droite dans tous _ses éléments enfants_.
-> se qui nous amene aux body et a la régle précédament établi _la balise body_.( [5. La balise body](#5-la-balise-body) )
+- Si on veut que tous les éléments d'une div ont la mêmes marges à droite, on préfèrera placer une seule marge à droite dans cette div que de placer une marge à droite dans tous _ses éléments enfants_.
+> Se qui nous amene aux body et a la régle précédament établi _la balise body_.(voir [5. La balise body](#5-la-balise-body))
  
-## l'extension W3C et L'inspecteur
+## L'extension W3C et L'inspecteur
  
-lorsque l'on construit un site, on utilise divers outils pour nous faciliter le travail, nous allons ici en voir deux majoritairement utiliser.
+Lorsque l'on construit un site, on utilise divers outils pour nous faciliter le travail, nous allons ici en voir deux, majoritairement utiliser.
  
 ### 1. L'extension W3C
  
-> l'extension W3C analyse le code entrer dans un editeur de code tel que __VSC__ (_visual studio code_) pour detecter toutes les erreur de syntaxe de notre code.
+> L'extension W3C analyse le code entrer dans un editeur de code, tel que __VSC__ (_visual studio code_), pour detecter toutes les erreurs de syntaxe de notre code.
  
-Il permet notamment de voir si on a bien respecté les bonnes pratique et convention.  
+Il permet notamment de voir si on a bien respecté les bonnes pratiques et conventions.  
 Il regarde l'indentation, la hiérarchisation et tout autre erreur que l'on peut commettre par inadvertance (ne prend pas en charge la correction des fautes d'orthographe malheureusement).
  
 ### 2. L'inspecteur
@@ -494,17 +494,17 @@ L'inspecteur est très complet et a une multitude d'options utile, cependant, no
  
 #### 2.1 L'inspecteur d'HTML
  
->L'inspecteur n'offre aucune interaction avec l'html de notre page mais permet néamoins :
+>L'inspecteur n'offre aucune interaction avec l'HTML de notre page mais permet néamoins :
 - De voir les éléments __enfant__ et __parent__ et leur disposition dans le code HTML.
 - Il affiche les commentaires HTML de la page.
 - Il permet de voir la hiérarchisation et la position de vos balises dans la page actuelle.
  
 #### 2.2 L'inspecteur de CSS
->L'inpecteur offre des outils pour concevoir et modifier son css __mais attention tout changement fait dans l'inspecteur ne sont pas sauvegarder et doivent être ajouter a votre code manuellement !__
+>L'inpecteur offre des outils pour concevoir et modifier son CSS __mais attention tout changement fait dans l'inspecteur ne sont pas sauvegarder et doivent être ajouter a votre code manuellement !__
 - Il permet notamment de donner directement, via l'éditeur de CSS, du style à nos éléments préexistant où en créent de nouvelles règles de style.  
-- Chaque navigateur a ces propres règles de base qui permettent de définir _un style par défaut_ de nos balises HTML. Elle ne peut être changée directement via l'inspecteur, mais peuvent être remplacée par nos propres pages CSS.
+- Chaque navigateur a ces propres règles de base qui permettent de définir _un style par défaut_ de nos balises HTML. Elles ne peuvent être changées directement via l'inspecteur, mais peuvent être remplacées par nos propres pages CSS.
 - Il affiche le "sous-inspecteur". Il permet de voir si nos éléments ont une marge, une bordure et un padding, tout en permettent de redéfinir une taille à l'ensemble.
-- Un filtre permet d'afficher uniquement les mots que l'on cherche dans le code
+- Un filtre permet d'afficher uniquement les mots que l'on cherche dans le code.
 - Un onglet _"Calculer"_ (ou __"Computed Tab"__ en anglais) permet notamment de voir toutes les règles affectant nos éléments sélectionner.
 
 
