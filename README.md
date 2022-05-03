@@ -1,2 +1,2 @@
 # revision
-ensemble de révision vue aux cour de la formation
+ensemble de révision vue aux cours de la formation
