@@ -508,4 +508,4 @@ L'inspecteur est très complet et a une multitude d'options utile, cependant, no
 - Un onglet _"Calculer"_ (ou __"Computed Tab"__ en anglais) permet notamment de voir toutes les règles affectant nos éléments sélectionner.
 
 
-[ RETOUR EN HAUT ](#révision-1--les-bases-du-html)
+[ RETOUR EN HAUT ](#sommaire-)
