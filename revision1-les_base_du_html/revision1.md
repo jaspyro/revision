@@ -30,7 +30,7 @@ Nous allons, dans une première partie, nous consacrer au HTML puis nous interes
 
 >Le HTML ( HyperText Markup Language ) est un langage qui utilise _des balises_ pour permettre de créer des pages webs.  
 >Il est la fondation de votre page HTML, est contient les éléments visibles et les méta-données qui serviront aux navigateurs internets pour afficher correctement votre page web.  
->Il peut être suivit d'autre type de code tel que le __CSS__ pour donner du style à votre page web, du __javascript__ pour l'animer ou du __PHP__ pour lier une base de donner a notre page web. 
+>Il peut être suivit d'autre type de code tel que le __CSS__ pour donner du style à votre page web, du __javascript__ pour l'animer ou du __PHP__ pour lier une base de donner à notre page web. 
 
 > Par convention, on nomme la première page HTML d'un site : __index.HTML__.
 
