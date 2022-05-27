@@ -1,0 +1,88 @@
+h2 {
+    font-size: 42px;
+}
+
+p {
+    font-size: 1.75rem;
+}
+
+
+/*
+    #btn_answer_1
+    #btn_answer_2
+    #btn_answer_3
+    #btn_answer_4
+    #btn_answer_5
+*/
+.answer_1 {
+    display: none;
+}
+
+.answer_2 {
+    display: none;
+}
+
+.answer_3-1 {
+    display: none;
+}
+
+.answer_3-2 {
+    display: none;
+}
+
+.answer_4 {
+    display: none;
+}
+
+.answer_5 {
+    display: none;
+}
+
+.div_1 {
+    display: none;
+}
+
+.div_2 {
+    display: none;
+}
+
+.div_3 {
+    display: none;
+}
+
+.div_4 {
+    display: none;
+}
+
+.div_5 {
+    display: none;
+}
+
+.div_6 {
+    display: none;
+}
+
+.div_7 {
+    display: none;
+}
+
+.p_final{
+    display: none;
+}
+
+/*
+    #next_1
+    #next_2
+    #next_3
+    #next_4
+    #next_5
+    #next_6
+*/
+
+/*
+    display block
+*/
+
+.block {
+    display: block;
+}

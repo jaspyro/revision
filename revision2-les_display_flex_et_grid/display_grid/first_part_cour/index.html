@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cour Display Grid</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Le display grid</h1>
+
+    <h2>Qu'est ce qu'une grid ?</h2>
+    <button id="btn_answer_1">réponse</button>
+    <p class="answer_1">c'est une grille</p>
+
+    <div class="div_1">
+        <h2>donc que fait [display: grid] ?</h2>
+        <button id="btn_answer_2">réponse</button>
+        <p class="answer_2">Range les éléments voulue dans un tableaux.</p>
+    </div>
+
+    <div class="div_2">
+        <h2>définir une longeur et une largeur</h2>
+        <p>il existe trois moyen de définir une taille a notre tableaux.</p>
+        <button id="btn_answer_3">première réponse</button>
+        <p class="answer_3-1">grid-template-columns: défini le nombre de colonnes voulue.</p>
+        <p class="answer_3-2">grid-template-rows: défini le nombre de ligne voulue.</p>
+
+        <button id="btn_answer_4">deuxième réponse</button>
+        <p class="answer_4">grid-template-area: défini la taille qu eprendra chaque élément dans son tableaux </p>
+
+        <button id="btn_answer_5">troisième réponse</button>
+        <p class="answer_5">grid-template: function racourci regroupant les effets d'un grid-template-columns, un grid-template-rows et un grid-template-area</p>
+
+        <button id="next_1">suivant</button>
+    </div>
+    
+    <div class="div_3">
+        <h2>Les function automatique (fortement déconseiller)</h2>
+        <p>grid_auto_columns: défini la taille de la colonne automatiquement.</p>
+        <p>grid_template_rows: défini la taille de la ligne automatiquement.</p>
+        <p>grid_auto_flow: définit un placement pour vos éléments automatiquement.</p>
+
+        <button id="next_2">suivant</button>
+    </div>
+
+    <div class="div_4">
+        <h2>donner une taille a un éléments</h2>
+        <h3>grid-column-[start/end]</h3>
+        <p>grid-column-start: définit la position de départ d'un élément par rapport aux nombre de colonnes</p>
+        <p>grid-column-end: définit la position de fin d'un élément par rapport aux nombre de colonnes</p>
+        <h3>grid-row-[start/end]</h3>
+        <p>grid-row-start définit la position de départ d'un élément par rapport aux nombre de lignes:</p>
+        <p>grid-row-end: définit la position de fin d'un élément par rapport aux nombre de lignes</p>
+
+        <button id="next_3">suivant</button>
+
+        <div class="div_5">
+            <p>grid-column: définit la position de départ et de fin d'un élément par rapport aux nombre de colonnes</p>
+            <p>grid-row: définit la position de départ et de fin d'un élément par rapport aux nombre de lignes</p>
+        </div>
+
+        <button id="next_4">suivant</button>
+        <div class="div_6">
+            <p>grid-area: définit toutes les longeur et largeur dans une seule propriéter</p>
+            <p>[grid-row-start], [grid-column-start], [grid-row-end], [grid-column-end];</p>
+        </div>
+
+        <button id="next_5">suivant</button>
+        <div class="div_7">
+            <h2>quelque propriétés suplémentaires</h2>
+            <p>row-gap: définit un espace entre les lignes</p>
+            <p>column-gap: définit un espace entre les colonnes</p>
+            <p>gap: function racourcie qui permet de définir la taille entre les ligne puis la taille entre les colonnes </p>
+        </div>
+
+        <button id="next_6">suivant</button>
+        <p class="p_final">La function repeat: utilisable sur un grid-template-columns ou le grid-template-rows permet de répéter un même schemas.</p>
+
+    </div>
+
+</body>
+</html>

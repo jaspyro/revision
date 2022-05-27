@@ -1,0 +1,40 @@
+.div {
+    width: 6.25rem;
+    height: 6.25rem;
+    background-color: black;
+}
+
+#first_group {
+    margin-bottom: 6.25rem;
+}
+
+#first_group #first {
+    display: flex;
+    justify-content: center;
+}
+
+#first_group #second {
+    display: flex;
+    justify-content: end;
+}
+
+#first_group #three {
+    display: flex;
+    justify-content: baseline;
+}
+
+#second_group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6.25rem;
+}
+
+#three_group {
+    display: flex;
+    justify-content: space-around;
+}
+
+#fourth_group {
+    display: flex;
+    justify-content: space-evenly;
+}

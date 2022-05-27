@@ -1,0 +1,63 @@
+/*
+    style
+*/
+
+h2 {
+    font-size: 42px;
+}
+
+p {
+    font-size: 1.75rem;
+}
+
+/*
+    script javascript
+*/
+
+.first_answer {
+    display: none;
+}
+
+.value_of_display {
+    display: none;
+}
+
+.second_answer {
+    display: none;
+}
+
+.third_answer {
+    display: none;
+}
+
+.fourth_answer {
+    display: none;
+}
+
+.fifth_answer {
+    display: none;
+}
+
+.sixth_answer {
+    display: none;
+}
+
+.seventh_answer {
+    display: none;
+}
+
+.heighth_answer {
+    display: none;
+}
+
+.combine_value {
+    display: none;
+}
+
+/*
+    variable javascript
+*/
+
+.block {
+    display: block;
+}

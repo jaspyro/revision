@@ -1,0 +1,25 @@
+.div {
+        width: 6.25rem;
+        height: 6.25rem;
+        background-color: black;
+}
+
+#first_group {
+    display: flex;
+    height: 12.5rem;  
+} 
+
+#first {
+    display: flex;
+    align-items: center;
+}
+
+#second {
+    display: flex;
+    align-items: end;
+}
+
+#three {
+    display: flex;
+    align-items: start;
+}

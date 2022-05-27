@@ -1,0 +1,36 @@
+#container .div {
+    width: 100px;
+    height: 100px;
+}
+
+#noir {
+    background-color: black;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#rouge {
+    background-color: red;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#vert {
+    background-color: green;
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#jaune {
+    background-color: yellow;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    width: 300px;
+    height: 300px;
+}

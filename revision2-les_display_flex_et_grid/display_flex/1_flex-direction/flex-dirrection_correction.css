@@ -1,0 +1,57 @@
+.div {
+    width: 6.25rem;
+    height: 6.25rem;
+    background-color: black;
+}
+
+/*
+    premier container
+*/
+
+#container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 6.25rem;
+}
+
+#container div {
+    margin-right: 3.125rem;
+}
+
+#container .final_div {
+    margin-right: 0;
+}
+
+/*
+    deuxième container
+*/
+
+#container_2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#container_2 div {
+    margin-bottom: 3.125rem;
+}
+
+#container_2 .final_div {
+    margin-bottom: 6.25rem;
+}
+
+/*
+    troisième container
+*/
+
+#container_3 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#container_3 div {
+    margin-bottom: 3.125rem;
+}
+
+#container_3 .final_div {
+    background-color: red;
+}
